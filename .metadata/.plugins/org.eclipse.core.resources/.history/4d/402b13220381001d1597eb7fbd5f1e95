@@ -1,0 +1,13 @@
+
+public class A {
+	
+	int a=100;
+
+	
+	public static void main(String[] args) {
+		
+		
+		A p = new A();
+		System.out.println("a =" +p.a);
+	}
+}

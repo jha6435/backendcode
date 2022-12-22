@@ -1,0 +1,14 @@
+
+public class A {
+	
+	 int a=100;
+	int print(){
+		 a;
+	 }
+
+	
+	public static void main(String[] args) {
+		
+		
+	}
+}

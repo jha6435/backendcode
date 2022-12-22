@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+D:\ShoppingBuzzfinal\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2802765807.index
+2252852199.index
+2572703967.index
+3078549918.index
+1078773027.index
+1318293977.index
+3117126265.index
+3102901178.index
+526165222.index

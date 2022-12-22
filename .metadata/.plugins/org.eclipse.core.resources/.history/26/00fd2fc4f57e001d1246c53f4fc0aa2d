@@ -1,0 +1,13 @@
+package com.simplilearn.demo.service;
+
+import com.simplilearn.demo.dto.User;
+
+public class UsereServiceImpl implements UserService {
+
+	@Override
+	public boolean validateUser(User user) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

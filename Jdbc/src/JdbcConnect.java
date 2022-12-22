@@ -1,0 +1,30 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class JdbcConnect {
+
+	public static void main(String[] args) {
+		
+		//1 load the driver
+		
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		//2 establish the connection
+		Connection connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/world",
+				"root", "12345");
+		
+		
+		//System.out.println("connected to database");
+				
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+}

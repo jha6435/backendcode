@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Phase 2 project (FlyAway)</title>
+</head>
+<body style="background-color: yellow;" <form action="http://localhost:8080/PROJECTDEMO1/ControllerServlet" method="post">>
+
+<h1 style="color: aqua;"> WELCOME TO FLYAWAY AIR TICKTING SERVICES</h1>
+ <marquee> <p style="color: blue;">FlyAway is a leading airline company in the world since 2000</p></marquee>
+ <div>
+  <table>
+    <tr>
+      
+      <th style="width: 20%;"> SOURCE:
+    <select>
+        <option>Enter city or Airport</option>
+        <option>New delhi</option>
+        <option>Mumbai</option>
+        <option>patna</option>
+        <option>kolkata</option>
+        <option>chennai</option>
+        <option>chandigarh</option>
+        <option>hydrabad</option>
+        <option>Ahmedabad</option>
+        <option>pune</option>
+        <option>Nagpur</option>
+       <option>Kochi</option>
+        <option>Banglore</option>
+        <option>Muzaffarpur</option>
+        <option>Gorakhpur</option>
+        <option>Kanpur</option>
+        <option>Lucknow</option>
+        <option>Jaipur</option>
+        <option>Jammu</option>
+        <option>shimla</option>
+        <option>Guwahati</option>
+        <option>Puri</option>
+        </select></th>
+     
+      <th style="width: 20%;"> DESTINATION :
+    <select>
+        <option>Enter city or Airport</option>
+        <option>New delhi</option>
+        <option>Mumbai</option>
+        <option>patna</option>
+        <option>kolkata</option>
+        <option>chennai</option>
+        <option>chandigarh</option>
+        <option>hydrabad</option>
+        <option>Ahmedabad</option>
+        <option>pune</option>
+        <option>Nagpur</option>
+       <option>Kochi</option>
+        <option>Banglore</option>
+        <option>Muzaffarpur</option>
+        <option>Gorakhpur</option>
+        <option>Kanpur</option>
+        <option>Lucknow</option>
+        <option>Jaipur</option>
+        <option>Jammu</option>
+        <option>shimla</option>
+        <option>Guwahati</option>
+        <option>Puri</option> </select></th>
+        
+      <th style="width: 20%;">No. Of Passengers:
+      <select>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      </select></th>
+      <th style="width: 20%;"><input type="date"></th>
+           
+  </table>
+</div>
+
+ <br>
+ <br>
+</form>
+ <button a href=""> SEARCH FLIGHT </a></button>
+</body>
+</html>

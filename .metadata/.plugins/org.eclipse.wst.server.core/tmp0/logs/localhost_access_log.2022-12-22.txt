@@ -1,0 +1,10 @@
+127.0.0.1 - - [22/Dec/2022:11:57:29 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:11:57:46 +0530] "GET /ShoppingBuzz/home.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:11:57:47 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:11:57:52 +0530] "GET /ShoppingBuzz/ControllerServlet?task=register HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:11:57:52 +0530] "GET /ShoppingBuzz/registeruser.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:12:02:06 +0530] "POST /ShoppingBuzz/ControllerServlet?task=login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:12:02:06 +0530] "GET /ShoppingBuzz/InvalidUserServlet HTTP/1.1" 200 35
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:12:02:18 +0530] "GET /ShoppingBuzz/home.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:12:02:54 +0530] "POST /ShoppingBuzz/ControllerServlet?task=login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:12:02:54 +0530] "GET /ShoppingBuzz/InvalidUserServlet HTTP/1.1" 200 35
